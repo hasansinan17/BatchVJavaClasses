@@ -31,7 +31,7 @@ public class ArrayListDemo {
 		System.out.println(numArrList.get(2));
 		
 		for(int num=0; num<numArrList.size(); num++) {
-			System.out.println(numArrList.get(num));
+			System.out.print(numArrList.get(num)+",");
 		}
 		
 		for(Integer number:numArrList) {
